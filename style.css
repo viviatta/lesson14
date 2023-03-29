@@ -1,0 +1,17 @@
+body{
+    background-color: blueviolet;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10vw;
+    letter-spacing: -2px;
+}
