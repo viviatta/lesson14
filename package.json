@@ -1,0 +1,16 @@
+{
+  "name": "lesson-14",
+  "version": "1.0.0",
+  "description": "lesson-14",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "deploy": "parcel build index.html --public-url . && gh-pages -d dist"
+  },
+  "author": "viviana attaianese",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.8.3"
+  }
+}
